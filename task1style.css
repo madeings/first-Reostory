@@ -1,0 +1,38 @@
+body {
+    padding:0;
+    margin: 0;
+
+
+}
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.sq {
+    width: 30%;
+    padding: 15% 0;
+    float: left;
+    margin: 1.6%;
+    border-radius: 10%;
+    background-color: #e78326;
+}
+
+.clearfix:after
+{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ".";
+    clear: both;
+    height: 0;
+}
+* html .clearfix
+{
+    zoom: 1;
+}
+*:first-child + html .clearfix
+{
+    zoom: 1;
+}
